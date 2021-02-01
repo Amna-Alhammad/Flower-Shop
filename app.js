@@ -22,4 +22,17 @@ for ( var i = 0; i<nobouquet ; i++){
     result = result + itemorder;
 
 }
-document.write(result);
+function totalorder ( order, nobouquet ){
+
+    document.write("The total order you want  "+ "    "+ order + "     "+ "bouquet of" + "    "+ nobouquet);
+
+}
+
+ function Name() {
+    var Name = prompt('Enter your name?');
+    document.write("Welcom"+ "    "+Name + "     " );
+    }
+
+    Name();
+    totalorder ( nobouquet , order );
+    document.write(result);
